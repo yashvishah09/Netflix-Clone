@@ -1,6 +1,8 @@
 import './App.css';
 import Row from './Row';
 import requests from './requests';
+import NavBar from './NavBar';
+import Banner from './Banner';
 
 const {
   fetchActionMovies,
@@ -16,8 +18,9 @@ const {
 function App() {
   return (
     <div className='App'>
-      <h1>Netflix Clone</h1>
-      <Row title='NETFLIX ORIGINALS' fetchUrl={fetchNetflixOriginals} />
+      <NavBar />
+      <Banner />
+      <Row title='NETFLIX ORIGINALS' fetchUrl={fetchNetflixOriginals} isLargeRow />
       <Row title='Trending Now' fetchUrl={fetchTrending} />
       <Row title='Top Rated' fetchUrl={fetchTopRated} />
       <Row title='Action' fetchUrl={fetchActionMovies} />
