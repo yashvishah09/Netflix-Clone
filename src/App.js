@@ -17,7 +17,7 @@ const {
 
 function App() {
   return (
-    <div className='App'>
+    <div className='app'>
       <NavBar />
       <Banner />
       <Row title='NETFLIX ORIGINALS' fetchUrl={fetchNetflixOriginals} isLargeRow />
