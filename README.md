@@ -1,3 +1,7 @@
+# Netflix Deployed web link
+
+https://netflix-clone2-57a49.web.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
