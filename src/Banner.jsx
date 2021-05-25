@@ -5,6 +5,8 @@ import './Banner.css';
 
 function Banner() {
   const [movie, setMovie] = useState([]);
+  
+  //const {fetchNetflixOrignals} = requests;
 
   useEffect(() => {
     async function fetchData() {
